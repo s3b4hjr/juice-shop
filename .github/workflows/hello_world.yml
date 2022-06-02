@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Hwllo World
+name: Hello World
 
 # Controls when the workflow will run
 on:
@@ -34,3 +34,21 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  hello-world-windows:
+    runs-on: windows-latest
+    
+    steps:
+      - name: Print hello world Windows
+        run: echo 'Hello World rodando no Windows'
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
